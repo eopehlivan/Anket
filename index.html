@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Anket</title>
+</head>
+<body style="font-family: Arial; text-align: center; padding-top: 100px;">
+  <p>Ankete yönlendiriliyorsunuz, lütfen bekleyin...</p>
+  <script>
+    const formlar = [
+      "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__oP83mZUQkQ1WTE2WDJERlo2TUlLN1BESVpVWUc5RC4u",
+      "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__oP83mZUOVIzNEhIR0lNQ0Y1WExWNzRJU0JOM1NYQy4u"
+    ];
+    const secilen = formlar[Math.floor(Math.random() * 2)];
+    window.location.replace(secilen);
+  </script>
+</body>
+</html>
